@@ -1,17 +1,17 @@
-<div align="center">
-
 # 墨方 MoFang
 
-一个纯静态、单文件的 Markdown 编辑器
-A purely static, single-file Markdown editor
+> 一个纯静态、单文件的 Markdown 编辑器
 
-</div>
+> A purely static, single-file Markdown editor
+
 
 墨，谐音 Markdown 的首音。方，取方案之意。墨方即一种 Markdown 解决方案。
+
 墨 (mò) means ink and echoes the first sound of _Markdown_. 方 (fāng) means
 _solution_. Together: a Markdown solution.
 
 墨方是一个 Markdown 编辑器。整个应用是一个静态 HTML 文件，下载后用浏览器打开即可使用。没有后端，无需登录，离线可用。
+
 MoFang is a Markdown editor. The entire application is a single static HTML
 file: download it and open it in a browser. No backend, no login, works
 offline.
@@ -19,6 +19,7 @@ offline.
 ## 为什么开发墨方 / Why MoFang
 
 Markdown 编辑器数量众多。墨方与其他编辑器的区别如下：
+
 Markdown editors are plentiful. These are MoFang's distinguishing choices:
 
 - **单文件运行**。整个应用打包为一个 HTML 文件，没有服务器、没有账号、没有安装过程。文稿与配置均保存在本地浏览器中。
@@ -69,18 +70,21 @@ Other standard capabilities:
 ## 在线体验 / Try it online
 
 无需下载，直接在浏览器中打开：**[zhangqihenry.github.io/mofang](https://zhangqihenry.github.io/mofang/)**
+
 Try it directly in your browser, no download needed:
 **[zhangqihenry.github.io/mofang](https://zhangqihenry.github.io/mofang/)**
 
 ## 使用 / Usage
 
 下载本仓库中的 [`mofang.html`](./mofang.html)，用浏览器打开即可，无需安装。
+
 Download [`mofang.html`](./mofang.html) from this repository and open it in a
 browser. No installation required.
 
 ## 注意事项 / Notes
 
 - 未配置图床时，插入的图片以 base64 编码直接嵌入文档。该方式会显著增加文档体积。配置任一图床后即改为上传并引用链接。
+
 - With no image host configured, inserted images are embedded directly in the
   document as base64 data URLs, which increases file size substantially.
   Configuring any image host switches to uploading and linking instead.
