@@ -66,6 +66,12 @@ Other standard capabilities:
   the respective providers; credentials are stored only in the local browser.
 - Available in 简体中文, 繁體中文, English and 日本語
 
+## 在线体验 / Try it online
+
+无需下载，直接在浏览器中打开：**[zhangqihenry.github.io/mofang](https://zhangqihenry.github.io/mofang/)**
+Try it directly in your browser, no download needed:
+**[zhangqihenry.github.io/mofang](https://zhangqihenry.github.io/mofang/)**
+
 ## 使用 / Usage
 
 下载本仓库中的 [`mofang.html`](./mofang.html)，用浏览器打开即可，无需安装。
