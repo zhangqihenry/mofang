@@ -4,7 +4,6 @@
 
 > A purely static, single-file Markdown editor
 
-
 墨，谐音 Markdown 的首音。方，取方案之意。墨方即一种 Markdown 解决方案。
 
 墨 (mò) means ink and echoes the first sound of _Markdown_. 方 (fāng) means
@@ -15,6 +14,12 @@ _solution_. Together: a Markdown solution.
 MoFang is a Markdown editor. The entire application is a single static HTML
 file: download it and open it in a browser. No backend, no login, works
 offline.
+
+![墨方 Ribbon 工具栏截图](./docs/screenshot.png)
+
+墨方的 Word 风格 Ribbon 工具栏，选项卡悬停即可切换。
+
+MoFang's Word-style Ribbon toolbar — hover a tab to switch to it.
 
 ## 为什么开发墨方 / Why MoFang
 
@@ -27,6 +32,8 @@ Markdown editors are plentiful. These are MoFang's distinguishing choices:
 - **网页内容粘贴后自动转换**。从网页复制的带格式内容粘贴进编辑器后，标题、加粗、链接、列表、表格会转换为对应的 Markdown 语法，而非退化为纯文本。
 
 - **修正中文加粗的渲染问题**。`**加粗**` 紧邻中文字符时，CommonMark 判定强调符号的规则时常失效，导致 `**` 按原样显示而非渲染为粗体。墨方在解析前进行一次预处理以规避该问题。
+
+- **Word 风格的 Ribbon 工具栏**。命令按选项卡分组展示，鼠标悬停选项卡即可切换，无需点击；「常用」选项卡支持右键将任意命令添加或移除，自由定制你自己的工具栏。
 
 - **Runs as a single file**. The whole application is bundled into one HTML
   file, with no server, no account and no installation step. Documents and
@@ -41,6 +48,11 @@ Markdown editors are plentiful. These are MoFang's distinguishing choices:
   Chinese characters, CommonMark's emphasis flanking rules frequently fail and
   the literal `**` is rendered instead of bold text. MoFang preprocesses the
   source to avoid this.
+
+- **A Word-style Ribbon toolbar**. Commands are grouped into tabs; hovering a
+  tab switches to it, no click required. The 常用 (Favorites) tab lets you
+  right-click any command to pin or unpin it, so you can build your own
+  personal toolbar.
 
 其它常规能力：
 
