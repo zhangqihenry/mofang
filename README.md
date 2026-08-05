@@ -33,7 +33,7 @@ Markdown editors are plentiful. These are MoFang's distinguishing choices:
 
 - **修正中文加粗的渲染问题**。`**加粗**` 紧邻中文字符时，CommonMark 判定强调符号的规则时常失效，导致 `**` 按原样显示而非渲染为粗体。墨方在解析前进行一次预处理以规避该问题。
 
-- **Word 风格的 Ribbon 工具栏**。命令按选项卡分组展示，鼠标悬停选项卡即可切换，无需点击；「常用」选项卡支持右键将任意命令添加或移除，自由定制你自己的工具栏。
+- **Word 风格的 Ribbon 工具栏**。命令按选项卡分组展示，鼠标悬停选项卡即可切换，无需点击。
 
 - **Runs as a single file**. The whole application is bundled into one HTML
   file, with no server, no account and no installation step. Documents and
@@ -50,9 +50,7 @@ Markdown editors are plentiful. These are MoFang's distinguishing choices:
   source to avoid this.
 
 - **A Word-style Ribbon toolbar**. Commands are grouped into tabs; hovering a
-  tab switches to it, no click required. The 常用 (Favorites) tab lets you
-  right-click any command to pin or unpin it, so you can build your own
-  personal toolbar.
+  tab switches to it, no click required.
 
 其它常规能力：
 
