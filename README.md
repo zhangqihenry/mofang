@@ -36,6 +36,7 @@ Markdown 编辑器数量众多。墨方与其他编辑器的区别如下：
 - PlantUML 时序图（通过 `plantuml.com` 的公共服务渲染，需要联网）
 - GFM 警告块、Ruby 注音、信息图、代码高亮
 - 导出 Markdown / HTML / PDF / 长图
+- 中英标点一键互转，一键清除 Markdown 标记还原为纯文本
 - 图床（GitHub、S3、OSS、七牛云、MinIO、Cloudflare R2 等）与 AI 辅助写作（DeepSeek、OpenAI、通义千问等）需自行填写相应服务商的密钥，密钥仅保存在本地浏览器中。
 - 支持简体中文、繁體中文、English、日本語
 
@@ -67,6 +68,8 @@ Other standard capabilities:
   requires a network connection)
 - GFM alert blocks, Ruby annotations, infographics, syntax highlighting
 - Export to Markdown / HTML / PDF / long image
+- One-click punctuation conversion between Chinese and ASCII, and one-click
+  stripping of Markdown back to plain text
 - Image hosts (GitHub, S3, OSS, Qiniu, MinIO, Cloudflare R2, etc.) and
   AI-assisted writing (DeepSeek, OpenAI, Qwen, etc.) require credentials from
   the respective providers; credentials are stored only in the local browser.
